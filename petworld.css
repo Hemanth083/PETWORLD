@@ -1,0 +1,335 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+nav{
+    width: 90%;
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    width: 153px;
+    height: 54px;
+    font-size: 18px;
+    line-height: 32px;
+    Font-style: Regular;
+    Font-size: 18px;
+    Line-height: 32px;
+    line-height: 119%;
+    align-items: Center;
+    vertical-align: Top;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.signUp{
+    background-color: transparent;
+}
+.logIn{
+    color: white;
+    background-color: #3366FF;
+}
+.header-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+}
+.first{
+    background-color: #F7F5FD;
+}
+.second{
+    background: #FCFAF5;
+}
+.header{
+    width: 28%;
+    height: 70%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.image{
+    margin-left: 100px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstHeader{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    align-items: start;
+    font-style: SemiBold;
+    Line-height: 110%;
+    opacity: 0.8;
+}
+.discription{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.5;
+    align-items: center;
+}
+.start{
+    background: #F8D57E;
+}
+.video{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2FAF8;
+}
+video{
+    border-radius: 10px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 90px;
+    width: 100%;
+    height: 25vh;
+}
+.aboutStore{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.qualtiy,.accessories,.care,.grooming{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+.about-headings{
+    margin-top:40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px;
+    align-items: center;
+}
+.aboutDis{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    line-break: 2;
+}
+.userFeedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    font-family: 'Poppins', sans-serif;
+    background: #ECE7FB;
+}
+.feedback{
+    text-align: center;
+    width: 60%;
+    line-height: 32px;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.leftFooter{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    margin-left: 7%;
+}
+.rightFooter{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+.inbox{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+.sendEmail{
+    width: 100%;
+    display: flex;
+    grid-gap: 20px;
+}
+input{
+    width: 45%;
+    height: 54px;
+    border-radius: 10px;
+    border: solid 2px #D0D0D0;
+    padding-left: 15px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+input::placeholder{
+    width: 50%;
+    height: 54px;
+    font-size: 15px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    width: 80%; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.social{
+    width:40%;
+    grid-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+td{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.someThing{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.send{
+    color: white;
+    background-color: #3366FF;
+    font-weight: 100;
+}
+
+@media (max-width:415px) {
+    .createAndLogin{
+        display: flex;
+        flex-direction: row;
+    }
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 80vh;
+    }
+    .firstHeader{
+        font-size: 50px;
+       text-align: center;
+    }
+    .discription{
+        font-size: 18px;
+    }
+    .signUp,.logIn{
+        height: 40px;
+        width: 90px;
+    }
+    .start{
+     justify-content: center;   
+     align-items: center;
+    }
+    #image{
+        width: 350px;
+    }
+    .image{
+        margin-left: 0px;
+    }
+    .video{
+        height: 50vh;
+    }
+    video{
+        width: 360px;
+    }
+    .logos{
+        grid-gap: 10px;
+    }
+    #logos{
+        width: 50px;
+        height: auto;
+    }
+    .aboutStore{
+        height: 150vh;
+        flex-direction: column;
+    }
+    .qualtiy,.care,.accessories,.grooming{
+        width: 100%;
+    }
+    .feedback{
+        font-size: 15px;
+    }
+    .firstHeader{
+      font-size: 50px;
+    }
+    .discription{
+        text-align: center;
+    }
+    footer{
+    flex-direction: column;
+    grid-gap: 50px;
+    }
+    .leftFooter,.rightFooter{
+        width: 90%;
+    }
+    .someThing{
+       display: none;
+    }
+    .social{
+        width: 100%;
+    }
+}
