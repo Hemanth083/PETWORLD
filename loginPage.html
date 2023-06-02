@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./loginPage.css">
+</head>
+
+<body>
+    <section class="form">
+        <img src="./assets/Logo.svg" width="250px" height="auto">
+        <div>
+            <p>Don't have an account? <a href="./createAccount.html">Create Account</a></p>
+            <input id="emailinputes"  type="email" placeholder="Email Address" pattern="[a-zA-Z0-9]{8}@[a-zA-Z]\.[a-zA-z]{4}" required />
+        </div>
+        <div>
+            <div class="password">
+                <input type="password" id="passwordinputs" placeholder="Password">
+            </div>
+            <!-- <a class="visibilityIcon" onclick="visibal()"> <img src="./assets/gridicons_visible.png" width="20px"
+                    height="auto"></a> -->
+        </div>
+        <p id="error">Wrong password or Email. Try again</p>
+        <button onclick=send()>Next</button>
+    </section>
+    <script src="./loginPage.js"></script>
+</body>
+
+</html>
